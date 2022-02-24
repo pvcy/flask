@@ -55,7 +55,8 @@ setup(
     install_requires=[
         "Werkzeug >= 0.15, < 2.0",
         "Jinja2 >= 2.10.1, < 3.0",
-        "itsdangerous >= 0.24, < 2.0",
+        "itsdangerous == 1.1.0",
+        "markupsafe == 2.0.1",
         "click >= 5.1, < 9.0",
     ],
     extras_require={
